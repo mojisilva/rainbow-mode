@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #E5E8E8;
+    color: #4e545c;
+    font-family: Quicksand;
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    border-radius: 40px;
+    font-size: 1.5rem;
+    height: 60px;
+    width: 200px;
+    border: 1px solid white;
+    background-color: #8d9797;
+    color: #e5e8e8;
+    font-family: Quicksand;
+    position: absolute;
+    transition: all 0.5s linear;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+}
+button:hover{
+    background-color: #000401;
+}
+
+h1{
+    position:absolute;
+    text-align: center;
+    z-index: 1;
+    top: 30%;
+    left: 50%;
+    -webkit-transform:translate3d(-50%, -50%, 0);
+    -moz-transform:translate3d(-50%, -50%, 0);
+    transform:translate3d(-50%, -50%, 0);
+}
+
+footer{
+    width: 100%;
+    background-color: #4e545c;
+    padding: 16px;
+    color: #e5e8e8;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.container{
+    background-color: #E5E8E8;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+.red{
+    background-color: #FF0018
+}
+.orange{
+    background-color: #FFA52C;
+}
+.yellow{
+    background-color: #FFFF41;
+}
+.green{
+    background-color: #008018;
+}
+.blue{
+    background-color: #0000F9;
+}
+.indigo{
+    background-color: #4B0082;
+}
+.violet{
+    background-color: #86007D
+}
+
+#div-red{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+#div-orange{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+#div-yellow{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+#div-green{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+#div-blue{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+#div-indigo{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+#div-violet{
+    width: 100%;
+    max-height: 100%;
+    position: relative;
+}
