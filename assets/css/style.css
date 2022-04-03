@@ -10,6 +10,10 @@ body{
     color: #4e545c;
     font-family: Quicksand;
 }
+body.colorfull-mode{
+     color: #000401;
+}
+
 main{
     height: 100vh;
     width: 100%;
@@ -40,6 +44,15 @@ button:hover{
     background-color: #000401;
 }
 
+button.colorfull-mode{
+    background-color: transparent;
+    border: 2px solid #000401;
+    color: #000401;
+}
+button.colorfull-mode:hover{
+    background-color: #4e545c;
+    color: #e5e8e8;
+}
 h1{
     position:absolute;
     text-align: center;
@@ -62,6 +75,11 @@ footer{
     font-weight: 400;
 }
 
+footer.colorfull-mode{
+    background-color: transparent;
+    color: #000401;    
+}
+
 .container{
     background-color: #E5E8E8;
     display: flex;
@@ -71,60 +89,59 @@ footer{
     justify-content: space-between;
     
 }
-.red{
-    background-color: #FF0018
-}
-.orange{
-    background-color: #FFA52C;
-}
-.yellow{
-    background-color: #FFFF41;
-}
-.green{
-    background-color: #008018;
-}
-.blue{
-    background-color: #0000F9;
-}
-.indigo{
-    background-color: #4B0082;
-}
-.violet{
-    background-color: #86007D
-}
-
 #div-red{
     width: 100%;
     max-height: 100%;
     position: relative;
+}
+#div-red.colorfull-mode{
+    background-color: #FF0018
 }
 #div-orange{
     width: 100%;
     max-height: 100%;
     position: relative;
 }
+#div-orange.colorfull-mode{
+    background-color: #FFA52C;
+}
 #div-yellow{
     width: 100%;
     max-height: 100%;
     position: relative;
+}
+#div-yellow.colorfull-mode{
+    background-color: #FFFF41;
 }
 #div-green{
     width: 100%;
     max-height: 100%;
     position: relative;
 }
+#div-green.colorfull-mode{
+    background-color: #008018;
+}
 #div-blue{
     width: 100%;
     max-height: 100%;
     position: relative;
+}
+#div-blue.colorfull-mode{
+    background-color: #0000F9;
 }
 #div-indigo{
     width: 100%;
     max-height: 100%;
     position: relative;
 }
+#div-indigo.colorfull-mode{
+    background-color: #4B0082;
+}
 #div-violet{
     width: 100%;
     max-height: 100%;
     position: relative;
+}
+#div-violet.colorfull-mode{
+    background-color: #86007D;
 }
