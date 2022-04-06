@@ -39,6 +39,7 @@ button{
     -webkit-transform:translate3d(-50%, -50%, 0);
     -moz-transform:translate3d(-50%, -50%, 0);
     transform:translate3d(-50%, -50%, 0);
+    cursor: pointer;
 }
 button:hover{
     background-color: #000401;
